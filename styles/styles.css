@@ -12,14 +12,18 @@ html {
 
 header {
   width: 100%;
-  height: 20px;
+  height: 40px;
   display: flex;
-  justify-content: flex-end;
   align-content: center;
-  font-size: 0.5rem;
+  font-size: 1.2rem;
 }
 header .header__container {
   padding: 5px 5px 0 0;
+}
+header .header__container-menu img {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
 }
 header .header__container-list {
   display: flex;
@@ -27,19 +31,19 @@ header .header__container-list {
   list-style: none;
 }
 header .header__container-list a {
-  margin: 3px;
+  margin: 3px 10px 3px 10px;
   text-decoration: none;
   color: black;
 }
+header .header__container-right {
+  width: 50%;
+  padding: 5px 0 5px 5px;
+}
 header a .header-menu {
-  width: 5px;
-  height: 5px;
-  margin: 0;
-  display: flex;
-  align-items: center;
+  width: 15px;
+  height: 15px;
 }
 header .menu {
-  width: 5px;
-  height: 5px;
-  margin-top: 2px;
+  width: 15px;
+  height: 15px;
 }
