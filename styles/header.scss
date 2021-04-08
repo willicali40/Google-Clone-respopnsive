@@ -1,37 +1,41 @@
 header {
     width: 100%;
     height: 40px;
+    padding: 8px;
     display: flex;
-    align-content: center;
+    justify-content: space-between;
     font-size: 1.2rem;
-    .header__container {
-        padding: 5px 5px 0 0;
-    }
-    .header__container-menu img {
-        width: 18px;
-        height: 18px;
-        margin-left: 10px;
-    }
-    .header__container-list {
-        display: flex;
-        align-items: center;
-        list-style: none;
-    }
-    .header__container-list a {
-        margin: 3px 10px 3px 10px;
-        text-decoration: none;
-        color: black;
-    }
-    .header__container-right {
-        width: 50%;
-        padding: 5px 0 5px 5px;
-    }
-    a .header-menu {
-        width: 15px;
-        height: 15px;
-    }
-    .menu {
-        width: 15px;
-        height: 15px;
-    }
+}
+
+
+.header__container-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__container-menu img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+.header__container-list a {
+    margin: 3px 10px 3px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__container-right {
+    list-style: none;
+    margin: 3px 15px;
+}
+.header__container-right a {
+    margin-left: 10px;
+}
+.header__container-menu-right img {
+    width: 18px;
+    height: 18px;
+}
+.header__profile-photo {
+    width: 18px;
+    height: 18px;
 }
