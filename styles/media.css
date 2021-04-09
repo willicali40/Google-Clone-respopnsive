@@ -1,0 +1,7 @@
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
