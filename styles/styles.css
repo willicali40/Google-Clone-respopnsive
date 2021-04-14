@@ -131,9 +131,14 @@ header {
   color: grey;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1000px) {
   .container {
-    height: 445px;
+    height: 435px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .container {
+    height: 310px;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -148,6 +153,16 @@ header {
 
   .container {
     min-width: 300px;
+  }
+
+  .container__nav-bar {
+    min-width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dadce0;
+    border-radius: 50px;
+    margin: 25px auto 5px auto;
   }
 
   footer {
